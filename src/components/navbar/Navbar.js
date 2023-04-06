@@ -35,7 +35,7 @@ const Navbar = () => {
             <a href="/">Bike</a>
           </li>
           <li className="nav-item">
-            <a href="/">Run</a>
+            <a href="src/components/runner/runner.css">Run</a>
           </li>
         </ul>
         <div onClick={handleClick} className="hamburger">
