@@ -92,6 +92,6 @@
     transform: translateY(0);
   }
   .navbar.transparent {
-    background-color: transparent;
+    background-color: black;
   }
   
