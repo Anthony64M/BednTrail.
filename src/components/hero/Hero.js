@@ -4,6 +4,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import MainVideo from '../../assets/video.mp4';
 import './Hero.css';
+import '../../walk/walk.js'
 
 const Hero = () => {
 
@@ -15,7 +16,7 @@ const Hero = () => {
     firebase.auth().signInWithPopup(provider)
       .then((result) => {
         // Redirect user to Walk page on successful login
-        window.location.href = '../../components/walk/walk.js';
+        window.location.href = 'src/components/walk/walk.js';
       })
       .catch((error) => {
         // handle authentication error
